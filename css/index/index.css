@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill:%23ffffff;"><circle cx="12" cy="12" r="10"/></svg>'), auto;
+}
+
+.loading-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  z-index: 999; /* Ensure it's above other elements */
+}
+
+.loading-bar {
+  width: 50px; /* Set your desired width */
+  height: 4px; /* Set your desired height */
+  background-color: #3498db; /* Set your desired color */
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+body {
+  font-family: "Poppins", "Pretendard Variable", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(21, 24, 27);
+  overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+  display: none !important;
+}
+
+::-moz-selection {
+  color: rgb(255, 255, 255);
+  background: rgb(78, 29, 124);
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(78, 29, 124);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fp-watermark {
+  display: none;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+#fp-nav .fp-tooltip {
+  position: absolute;
+  top: 50% !important;
+  right: 23px !important;
+  transform: translateY(-50%) !important;
+  color: rgb(212, 212, 212) !important;
+  font-size: 0.65rem !important;
+  font-weight: 300;
+}
+
+#fp-nav .active + .fp-tooltip {
+  color: rgb(255, 255, 255) !important;
+  font-size: 0.75rem !important;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@media (max-width: 900px) {
+  html {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 14px !important;
+  }
+  h1 {
+    font-size: 2.1rem !important;
+  }
+}/*# sourceMappingURL=index.css.map */
