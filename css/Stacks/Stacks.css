@@ -110,8 +110,8 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-color: #000000;
   border-radius: 0px;
   border: 1px solid rgb(30, 30, 35);
@@ -120,16 +120,16 @@
   transition: 300ms ease;
 }
 .Stacks_container .stack_container ul li svg {
-  width: 40px;
+  width: 50px;
 }
 .Stacks_container .stack_container ul li #height_icon {
   width: auto;
-  height: 40px;
+  height: 50px;
 }
 .Stacks_container .stack_container ul li div {
   position: absolute;
-  width: 140px;
-  left: 140px;
+  width: 150px;
+  left: 150px;
   height: 100%;
   display: flex;
   flex-direction: column;
